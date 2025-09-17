@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deriv Digit Analysis Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Deriv Digit Match Strategy Tool</h1>
+  </header>
+
+  <main>
+    <section id="market-data">
+      <h2>Live Market Data</h2>
+      <button id="connectBtn">Connect to Deriv API</button>
+      <div id="tickOutput">Waiting for data...</div>
+    </section>
+
+    <section id="analysis">
+      <h2>Digit Analysis</h2>
+      <p>Even/Odd count: <span id="evenOddCount">0 / 0</span></p>
+      <p>Most frequent last digit: <span id="frequentDigit">-</span></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
